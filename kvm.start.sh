@@ -1,4 +1,4 @@
-#!/bin/ash
+#!/bin/sh
 ANSIBLE_REPO=https://github.com/inmanturbo/ansible-node.git
 STORAGE_HOST=freebsd11.3
 STORAGE_POOL=nfs
