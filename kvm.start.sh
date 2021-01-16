@@ -8,7 +8,7 @@ mkdir -p /var/lib/libvirt/images/nfs
 apk add ansible
 ansible-pull -U $ANSIBLE_REPO
 
-until service status libvirtd
+until service libvirtd status
 do
   echo "Waiting for libvirtd"
 done
