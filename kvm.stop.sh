@@ -1,5 +1,5 @@
-#!/bin/ash
-STORAGE_HOST=freebsd12.0
+#!/bin/sh
+STORAGE_HOST=freebsd11.3
 STORAGE_POOL=nfs
 
 # Get all running vms
